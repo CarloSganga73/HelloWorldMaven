@@ -45,7 +45,7 @@ public class Daemon implements Runnable {
 	
 	public static void doCall()
 	{
-		String galenoNewRepositoryReadUrl = "http://localhost:8080/Galeno/ws/repository/";
+		String galenoNewRepositoryReadUrl = "http://127.0.0.1:8080/Galeno/ws/repository/";
 		Integer fisIdsmart = 954810;
 		String repoAPIKey = "FA662FF6-AB28-42F4-9A78-B101354B7D56";
 		System.out.println("Executing task..." + galenoNewRepositoryReadUrl);
